@@ -1,0 +1,32 @@
+.footer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .social-medias {
+    width: 30%;
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      padding: 1.5rem 0;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 2rem;
+
+      a {
+        text-decoration: none;
+        color: #066f14;
+        background-color: #edffdd;
+        padding: 12px;
+        border-radius: 4px;
+        font-size: 2rem;
+      }
+    }
+  }
+}

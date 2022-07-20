@@ -1,0 +1,42 @@
+.newsletter {
+  padding: 2rem;
+  background-color: #dfffe3;
+  width: 70%;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+
+  .newsletter-left {
+    width: 50%;
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      padding: 1.5rem 0;
+    }
+
+    form {
+      margin-top: 2rem;
+      padding: 0.6rem;
+      background-color: #fff;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+
+      input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .newsletter-right {
+    img {
+      width: 100%;
+    }
+  }
+}

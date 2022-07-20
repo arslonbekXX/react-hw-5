@@ -1,0 +1,28 @@
+.cards {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: space-between;
+  gap: 2rem;
+
+  .card {
+    padding: 3rem;
+    width: 40%;
+
+    img {
+      height: 60%;
+    }
+
+    .card-title {
+
+      text-align: start;
+      h1 {
+        padding: 1rem 0;
+        font-size: 2rem;
+      }
+
+      p {
+        margin-top: 1rem;
+      }
+    }
+  }
+}

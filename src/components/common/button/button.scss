@@ -1,0 +1,19 @@
+button {
+  background-color: #066f14;
+  padding: 12px 16px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  border: 1px solid #066f14;
+  transition: all 0.2s linear;
+
+  &:hover {
+    background-color: transparent;
+    color: #066f14;
+  }
+}
+
+

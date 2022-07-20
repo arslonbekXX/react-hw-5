@@ -1,0 +1,21 @@
+.follow {
+  margin-top: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .follow-title {
+    width: 55%;
+    margin: 0 auto;
+    h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      padding: 1rem 0;
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
+  }
+}

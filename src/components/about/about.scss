@@ -1,0 +1,44 @@
+.about {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+
+  .about-left {
+    width: 50%;
+
+    img {
+      width: 85%;
+    }
+  }
+
+  .about-right {
+    width: 50%;
+    font-size: 1.5rem;
+
+    p {
+      color: #066f14;
+    }
+
+    .about-title {
+      margin-top: 2rem;
+
+      p {
+        font-size: 1.4rem;
+        padding-bottom: 2rem;
+        color: #000;
+      }
+
+      h1 {
+        padding: 2rem 0;
+        font-size: 4rem;
+      }
+
+      span {
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 2rem;
+      }
+    }
+  }
+}
